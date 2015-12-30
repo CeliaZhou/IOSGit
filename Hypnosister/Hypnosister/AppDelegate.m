@@ -27,18 +27,17 @@
 //    CGRect firstFrame = self.window.bounds;
 //    
 //    BNRHypnosisView *firstView = [[BNRHypnosisView alloc] initWithFrame:firstFrame];
-////    firstView.backgroundColor = [UIColor blackColor];
 //    
-//    [self.window addSubview:firstView];
+//    [VC.view addSubview:firstView];
     
     CGRect screenRect = self.window.bounds;
     CGRect bigRect = screenRect;
     bigRect.size.width *= 2.0;
-//    bigRect.size.height *= 2.0;
+    bigRect.size.height *= 2.0;
     
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect];
     scrollView.pagingEnabled = YES;
-    [self.window addSubview:scrollView];
+    [VC.view addSubview:scrollView];
     
     BNRHypnosisView *hypnosisView = [[BNRHypnosisView alloc] initWithFrame:screenRect];
     [scrollView addSubview:hypnosisView];
@@ -49,8 +48,8 @@
     
     scrollView.contentSize = bigRect.size;
     
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    VC.view.backgroundColor = [UIColor whiteColor];
+//    [VC.view makeKeyAndVisible];
     
     
     return YES;

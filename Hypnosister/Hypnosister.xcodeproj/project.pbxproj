@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		847D031C1C2BF5D400CC6EE4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D031B1C2BF5D400CC6EE4 /* logo.png */; };
 		84BE45D81C2AC93F0009CEDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE45D71C2AC93F0009CEDA /* main.m */; };
 		84BE45DB1C2AC93F0009CEDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE45DA1C2AC93F0009CEDA /* AppDelegate.m */; };
 		84BE45DE1C2AC93F0009CEDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE45DD1C2AC93F0009CEDA /* ViewController.m */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		847D031B1C2BF5D400CC6EE4 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../../Desktop/IOS开发/Solutions/00-Resources/logo.png"; sourceTree = "<group>"; };
 		84BE45D31C2AC93F0009CEDA /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE45D71C2AC93F0009CEDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84BE45D91C2AC93F0009CEDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				84BE45DC1C2AC93F0009CEDA /* ViewController.h */,
 				84BE45DD1C2AC93F0009CEDA /* ViewController.m */,
 				84BE45DF1C2AC93F0009CEDA /* Main.storyboard */,
-				847D031B1C2BF5D400CC6EE4 /* logo.png */,
 				84BE45E21C2AC93F0009CEDA /* Assets.xcassets */,
 				84BE45E41C2AC93F0009CEDA /* LaunchScreen.storyboard */,
 				84BE45E71C2AC93F0009CEDA /* Info.plist */,
@@ -144,7 +141,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847D031C1C2BF5D400CC6EE4 /* logo.png in Resources */,
 				84BE45E61C2AC93F0009CEDA /* LaunchScreen.storyboard in Resources */,
 				84BE45E31C2AC93F0009CEDA /* Assets.xcassets in Resources */,
 				84BE45E11C2AC93F0009CEDA /* Main.storyboard in Resources */,
