@@ -15,6 +15,7 @@
 		841DB3F31C3D0877001F7973 /* BNRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841DB3F21C3D0877001F7973 /* BNRItemsViewController.m */; };
 		841DB3F91C3D1056001F7973 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 841DB3F81C3D1056001F7973 /* BNRItem.m */; };
 		841DB3FC1C3D3AE7001F7973 /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 841DB3FB1C3D3AE7001F7973 /* BNRItemStore.m */; };
+		84FA356A1C3F574B005BFE75 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FA35691C3F574B005BFE75 /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		841DB3F81C3D1056001F7973 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 		841DB3FA1C3D3AE7001F7973 /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
 		841DB3FB1C3D3AE7001F7973 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
+		84FA35691C3F574B005BFE75 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HeaderView.xib; path = ../HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				841DB3FB1C3D3AE7001F7973 /* BNRItemStore.m */,
 				841DB3F71C3D1056001F7973 /* BNRItem.h */,
 				841DB3F81C3D1056001F7973 /* BNRItem.m */,
+				84FA35691C3F574B005BFE75 /* HeaderView.xib */,
 				841DB3E31C3CF750001F7973 /* Main.storyboard */,
 				841DB3E61C3CF750001F7973 /* Assets.xcassets */,
 				841DB3E81C3CF750001F7973 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				841DB3EA1C3CF750001F7973 /* LaunchScreen.storyboard in Resources */,
 				841DB3E71C3CF750001F7973 /* Assets.xcassets in Resources */,
 				841DB3E51C3CF750001F7973 /* Main.storyboard in Resources */,
+				84FA356A1C3F574B005BFE75 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,7 @@
 				841DB3F01C3CF750001F7973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
